@@ -13,4 +13,4 @@
 (defn get-result [this k] (k (@results this)))
 (defn -exit   [this] (get-result this :exit))
 (defn -out    [this] (get-result this :out ))
-(defn -err    [this] (get-result this :out ))
+(defn -err    [this] (get-result this :err ))

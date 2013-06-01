@@ -13,4 +13,4 @@
 (defn get-and-shutdown [this k] (k (@results this)))
 (defn -exit   [this] (get-and-shutdown this :exit))
 (defn -out    [this] (get-and-shutdown this :out ))
-(defn -err    [this] (get-and-shutdown this :out ))
+(defn -err    [this] (get-and-shutdown this :err ))
