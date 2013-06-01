@@ -2,6 +2,6 @@
   (:require [clojure.java.shell :as sh]
             [clojure.string :as str])
   (:gen-class
-   :methods [[finalize [boolean] void]]))
+   :methods [[finalize [] void]]))
 
-(defn -finalize [_ _] (shutdown-agents))
+(defn -finalize [_] (shutdown-agents))
