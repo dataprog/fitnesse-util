@@ -1,4 +1,4 @@
-* use deftype instead of an atom to maintain state
+* TODO use deftype instead of an atom to maintain state
 
 Like this:
 
@@ -10,3 +10,7 @@ Like this:
 #+end_src
 
 See this thread: https://groups.google.com/forum/?fromgroups#!topic/clojure/jP38f4UOopE
+
+* TODO README: write fitnesse example
+
+* TODO Bundle a fitnesse test so it can be self-tested
