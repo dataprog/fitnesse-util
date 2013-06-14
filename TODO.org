@@ -1,0 +1,16 @@
+* TODO use deftype instead of an atom to maintain state
+
+Like this:
+
+#+begin_src clj
+(deftype Foo [^{:volatile-mutable true} x]
+  Object
+  (setBar [this s] (set! x (do-some-stuff)))
+  (baz    [this  ] x))
+#+end_src
+
+See this thread: https://groups.google.com/forum/?fromgroups#!topic/clojure/jP38f4UOopE
+
+* TODO README: write fitnesse example
+
+* TODO Bundle a fitnesse test so it can be self-tested
