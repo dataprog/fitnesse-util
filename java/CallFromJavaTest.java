@@ -1,4 +1,4 @@
-import org.denlab.fitnesse.cmdfixture.CommandLineFixture;
+import org.dataprog.fitnesse.fixture.cmd.CommandLineFixture;
 
 public class CallFromJavaTest {
 
