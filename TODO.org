@@ -14,3 +14,7 @@ See this thread: https://groups.google.com/forum/?fromgroups#!topic/clojure/jP38
 * TODO README: write fitnesse example
 
 * TODO Bundle a fitnesse test so it can be self-tested
+* TODO Delete doc/intro.md
+* TODO Delete java/CallFromJavaTest.java
+* TODO Add docStrings for the namespaces
+* TODO change the ns to org.dataprog
