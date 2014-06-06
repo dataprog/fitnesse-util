@@ -1,0 +1,11 @@
+#!/bin/bash -xe
+
+cd $(dirname $(readlink -f ${0}))/..
+
+lein do clean, uberjar
+
+CP=target/cmdfixture-1.0.0-standalone.jar
+
+javac java/*.java -cp ${CP}
+
+java -cp ${CP}:java CallFromJavaTest

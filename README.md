@@ -1,16 +1,21 @@
-# cmdfixture
+# fitnesse-util
 
-## What?
+Tools to use with [Fitnesse](http://www.fitnesse.org/): 
+ - `BashFixture:` Run bash commands as Fitnesse tests.
+ - `CljFixture :` Run [Clojure](http://clojure.org/) code as Fitnesse tests.
 
-A Fitnesse slim fixture for running shell commands.
+# Download
 
-## Why?
-
-There's already a [Fitnesse fixture](http://fit.c2.com/wiki.cgi?CommandLineFixture) to do that by Uncle Bob, but it's a fit one.
+Download it [here](https://github.com/dataprog/resources/blob/master/jar/fitnesse-util-1.0.0.jar)
 
 ## How?
 
 <todo> insert examples
+
+## FAQ
+
+- Q: Why another BashFixture, there's already one [here](http://fit.c2.com/wiki.cgi?CommandLineFixture)? 
+- A: This is a fit fixture, the one provided here is a slim one.
 
 ## License
 
