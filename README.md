@@ -6,7 +6,7 @@ Tools to use with [Fitnesse](http://www.fitnesse.org/):
 
 # Download
 
-Download it [here](https://github.com/dataprog/resources/blob/master/jar/README.md)
+Download it [here](https://github.com/dataprog/resources/blob/master/jar/fitnesse-util-1.0.0.jar)
 
 ## How?
 
