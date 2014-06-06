@@ -14,6 +14,6 @@ There's already a [Fitnesse fixture](http://fit.c2.com/wiki.cgi?CommandLineFixtu
 
 ## License
 
-Copyright © 2013 dataprog committers.
+Copyright © 2014 dataprog committers.
 
 Distributed under the Eclipse Public License.

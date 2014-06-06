@@ -1,4 +1,4 @@
-(ns org.denlab.fitnesse.bashfixture
+(ns org.dataprog.fitnesse.fixture.cmd.bashfixture
   (:require [clojure.java.shell :as sh]
             [clojure.string :as str])
   (:gen-class
