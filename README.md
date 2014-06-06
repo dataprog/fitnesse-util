@@ -4,6 +4,10 @@ Tools to use with [Fitnesse](http://www.fitnesse.org/):
  - `BashFixture:` Run bash commands as Fitnesse tests.
  - `CljFixture :` Run [Clojure](http://clojure.org/) code as Fitnesse tests.
 
+# Download
+
+Download it [here](https://github.com/dataprog/resources/blob/master/jar/README.md)
+
 ## How?
 
 <todo> insert examples
