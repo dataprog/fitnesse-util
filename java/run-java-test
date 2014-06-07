@@ -4,7 +4,7 @@ cd $(dirname $(readlink -f ${0}))/..
 
 lein do clean, uberjar
 
-CP=target/cmdfixture-1.0.0-standalone.jar
+CP=target/fitnesse-util-1.0.0-standalone.jar
 
 javac java/*.java -cp ${CP}
 
