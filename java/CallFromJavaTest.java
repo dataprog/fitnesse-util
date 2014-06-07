@@ -7,6 +7,7 @@ public class CallFromJavaTest {
 
     private static Runnable[] TESTS = new Runnable[] {
         new CljFixtureTest()          ,
+        new CljFixtureNsBugTest()     ,
         new BashFixtureTest()         ,
         new BashFixtureAdvancedTest() ,
         new CmdFixtureTest()};
@@ -40,6 +41,18 @@ public class CallFromJavaTest {
             // then
             assertEquals(f.result(), 2L);
             assertEquals(f.out()   , ":foo");
+            assertEquals(f.err()   , "");
+        }
+    }
+
+    private static final class CljFixtureNsBugTest implements Runnable {
+        public void run() {
+            // when
+            CljFixture f = new CljFixture();
+            f.setIn("(ns org.foo.bar)");
+            // then
+            assertEquals(f.result(), null);
+            assertEquals(f.out()   , "");
             assertEquals(f.err()   , "");
         }
     }
