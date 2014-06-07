@@ -101,8 +101,14 @@ public class CallFromJavaTest {
         System.out.println("OK (" + (end - start) + " ms)");
     }
 
+    private static boolean areEquals(Object actual, Object expected) {
+        return (actual == null && expected == null)
+               ||
+               (actual != null && actual.equals(expected));
+    }
+
     private static void assertEquals(Object actual, Object expected) {
-        if (!actual.equals(expected)) {
+        if (!areEquals (actual, expected)) {
             throw new RuntimeException("Expected " + expected + " but was " + actual);
         }
     }
